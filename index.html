@@ -30,25 +30,16 @@ svg {
   width: 100%;
   height: auto;
 }
-  .clock-card {
-    background: #2C2F38;
-    border-radius: 16px;
-    border: 2px solid #FFAB91;
-    padding: 20px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.4);
-    text-align: center;
-    width: 200px;
-  }
   #digital-time {
     color: #FFAB91;
-    font-size: 1rem;
+    font-size: clamp(0.7rem, 4vw, 1rem);
     font-weight: 700;
     letter-spacing: 1px;
     margin-top: 10px;
   }
   #date-label {
     color: #FFAB91;
-    font-size: 0.95rem;
+    font-size: clamp(0.6rem, 3vw, 0.85rem);
     margin-top: 2px;
   }
   .num {
